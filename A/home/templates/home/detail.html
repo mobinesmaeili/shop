@@ -8,6 +8,6 @@
     <h2>{{ product.name }}</h2>
     <small>{{ product.created }}</small><br/>
     <p>{{ product.price }} Toman</p>
-    <img src="{{ product.image.url }}" alt=""><br/>
+    <img src="{{ product.image.url }}" alt="{{ product.name }}">><br/>
     <p>{{ product.description }}</p>
 {% endblock %}
